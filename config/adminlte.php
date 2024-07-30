@@ -198,7 +198,7 @@ return [
     'classes_content' => '',
     'classes_sidebar' => 'sidebar-dark-primary elevation-4',
     'classes_sidebar_nav' => '',
-    'classes_topnav' => 'navbar-white navbar-light',
+    'classes_topnav' => 'navbar-dark',
     'classes_topnav_nav' => 'navbar-expand',
     'classes_topnav_container' => 'container',
 
@@ -295,6 +295,14 @@ return [
 
     'menu' => [
         // Navbar items:
+        [
+            'type' => 'darkmode-widget',
+            'topnav_right' => true,
+            'icon_enabled' => 'fas fa-moon',
+            'icon_disabled' => 'far fa-moon',
+            'color_enabled' => 'primary',
+            'color_disabled' => 'info',
+        ],
         [
             'type' => 'navbar-search',
             'text' => 'search',
