@@ -306,11 +306,18 @@ return [
         ],
 
         // Sidebar items:
+        [
+            'text' => 'Dashboard',
+            'url' => '/',
+            'icon' => 'fas fa-tachometer-alt',
+            'active' => ['/', 'home'],
+        ],
         ['header' => 'INVENTARIO'],
         [
             'text' => 'Productos',
             'url' => 'productos',
             'icon' => 'fas fa-box',
+            'active' => ['productos*'],
         ]
     ],
 
